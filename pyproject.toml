@@ -1,0 +1,21 @@
+[project]
+name = "model-arena-mcp"
+version = "1.0.0"
+description = "模型对比选型 MCP：同题对比 / Elo 排行 / 按任务推荐"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+model-arena-mcp = "model_arena_mcp:main"
+
+[project.urls]
+Homepage = "https://github.com/dafeiai918/model-arena-mcp"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = ["model_arena_mcp.py"]
