@@ -1,0 +1,7 @@
+name: model-arena-mcp
+description: 模型对比选型 MCP：同题对比 / Elo 排行 / 按任务推荐
+categories:
+  - tools
+  - ai
+license: MIT
+repository: https://github.com/dafeiai918/model-arena-mcp
