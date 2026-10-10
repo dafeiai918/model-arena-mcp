@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "model-arena-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/dafeiai918/model-arena-mcp",
+        "model-arena-mcp"
+      ]
+    }
+  }
+}
